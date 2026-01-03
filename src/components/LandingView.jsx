@@ -10,7 +10,7 @@ export default function LandingView({ repoUrl, isUrlValid, urlError, onUrlChange
   return (
     <motion.div key="landing" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 1.1, filter: "blur(20px)" }} transition={{ duration: 0.6, type: "spring" }} className="text-center space-y-12 backdrop-blur-sm bg-black/20 p-12 rounded-[3rem] border border-white/5 shadow-2xl">
       <div className="space-y-6">
-      <motion.a href="https://github.com/USERNAME/REPO_NAME" target="_blank" rel="noopener noreferrer" initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}
+      <motion.a href="https://github.com/my-lord1/Git-Rag-FE" target="_blank" rel="noopener noreferrer" initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}
         className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-black/50 border border-indigo-500/30
                     text-sm text-indigo-300 font-medium shadow-[0_0_20px_rgba(99,102,241,0.2)]
                     hover:bg-black/70 hover:border-indigo-400 hover:text-indigo-200
