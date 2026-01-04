@@ -5,7 +5,7 @@ import LoadingView from './components/LoadingView';
 import ChatView from './components/ChatView';
 import Prism from './prism';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://git-rag-be.onrender.com";
 
 export default function App() {
   const [view, setView] = useState('landing');
